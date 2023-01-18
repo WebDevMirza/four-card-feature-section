@@ -13,7 +13,7 @@ h2 {
 }
 
 img {
-  margin-left: auto;
+  margin: 2rem 0 0 auto !important;
 }
 
 .container,
@@ -35,4 +35,28 @@ img {
 
 .container > * + * {
   margin-top: 0.625rem;
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    max-width: 780px;
+    font-size: 1.25rem;
+    letter-spacing: 1.5px;
+  }
+
+  .main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+  }
+
+  h1 {
+    font-size: 1.725rem;
+    line-height: 1.4;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
 }
