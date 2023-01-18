@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Supervisor",
+    "text": "Monitors activity to identify project roadblocks",
+    "img": "./images/icon-supervisor.svg"
+  },
+
+  {
+    "id": "2",
+    "title": "Team Builder",
+    "text": "Scans our talent network to create the optimal team for your project",
+    "img": "./images/icon-team-builder.svg"
+  },
+
+  {
+    "id": "3",
+    "title": "Karma",
+    "text": "Regularly evaluates our talent to ensure quality",
+    "img": "./images/icon-karma.svg"
+  },
+
+  {
+    "id": "4",
+    "title": "Calculator",
+    "text": "Uses data from past projects to provide better delivery estimates",
+    "img": "./images/icon-calculator.svg"
+  }
+]

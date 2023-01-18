@@ -1,0 +1,38 @@
+.intro {
+  text-align: center;
+  letter-spacing: 0.75px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+img {
+  margin-left: auto;
+}
+
+.container,
+.intro {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.container {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  padding: 2.25rem;
+  margin-bottom: 1.725rem;
+}
+
+.intro > * + * {
+  margin-top: 1rem;
+}
+
+.container > * + * {
+  margin-top: 0.625rem;
+}

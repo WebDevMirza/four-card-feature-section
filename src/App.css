@@ -1,0 +1,67 @@
+:root {
+  /*  ===============================
+      Colors
+      ===============================   */
+
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --VeryDarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+
+  /* ===============================
+     Fonts
+     ===============================  */
+
+  --ff-Poppins: "Poppins", sans-serif;
+}
+
+/* ==============================
+   Body
+   ==============================  */
+
+body {
+  font-family: var(--ff-Poppins);
+  font-size: 1rem;
+  background-color: var(--VeryLightGray);
+  color: var(--GrayishBlue);
+  line-height: 1.6;
+}
+
+/* ==============================
+Layout
+============================== */
+
+main {
+  max-width: 375px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 5rem 0 2rem;
+}
+
+/* ================================
+   Typography
+   ================================ */
+
+h2,
+span {
+  color: var(--VeryDarkBlue);
+}
+
+.border-cyan {
+  border-top: 3px solid var(--Cyan);
+}
+
+.border-red {
+  border-top: 3px solid var(--Red);
+}
+
+.border-orange {
+  border-top: 3px solid var(--Orange);
+}
+
+.border-blue {
+  border-top: 3px solid var(--Blue);
+}
